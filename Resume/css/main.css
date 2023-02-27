@@ -21,7 +21,7 @@
   content: "";
   display: inline-block;
   position: absolute;
-  background-color: #fff;
+  background-color: default;
   border-radius: 10px;
   width: 12px;
   height: 12px;
@@ -45,6 +45,8 @@
 
 .timeline-card-primary {
   border-left-color: #4a89dc;
+  /* background-color: black;
+  border-color: white; */
 }
 
 .timeline-card-primary:before {
@@ -100,10 +102,7 @@ html {
 .cover-bg {
   background-color: #4a89dc;
   background-image: url(https://media3.giphy.com/media/3osxY9kuM2NGUfvThe/giphy.gif?cid=ecf05e47enczsdjzgn2jifp3iq3b3ovab2flozix6ozfgjh5&rid=giphy.gif&ct=g);
-  /* background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif); */
-
   object-fit: fit;
-
   border-radius: 10px 10px 0 0;
 }
 
@@ -139,6 +138,7 @@ footer a:not(.nav-link) {
 @media print {
   body {
     background-color: #fff;
+    color: black;
   }
   .container {
     width: auto;
@@ -173,3 +173,11 @@ footer a:not(.nav-link) {
     page-break-before: always;
   }
 }
+
+/* .toggle {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+} */
